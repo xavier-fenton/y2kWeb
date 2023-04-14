@@ -1,6 +1,7 @@
 import React from 'react'
 import NavBar from './NavBar'
 import '../styles/TreePageBoxes/PageBoxes.css'
+import '../styles/index.css'
 
 // I want each tiime that you click a page on the nav bar it pops up against the first page
 /* these components classes should be components and functionally display them selves when clicking pages 
