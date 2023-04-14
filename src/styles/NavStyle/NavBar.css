@@ -27,3 +27,8 @@
   height: 100%;
   width: 100%;
 }
+
+.page-dynamics{
+  display: flex;
+  gap: 5px;
+}

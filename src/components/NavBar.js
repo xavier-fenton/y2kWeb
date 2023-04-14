@@ -25,7 +25,9 @@ const NavBar = () => {
             <Link to="/">4</Link>
           </div>
         </div>
-        <div>Page:</div>
+        <div className="page-dynamics">
+          Page:<div>[1]{/*this number should b dynamic */}</div>
+        </div>
       </div>
     </>
   )
