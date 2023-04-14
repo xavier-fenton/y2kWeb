@@ -1,13 +1,16 @@
 //create a basic architecture
 
-import NavBar from './components/NavBar'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import MainComponent from './components/MainComponent'
 
 // import compenents
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<MainComponent />} path="/" />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
