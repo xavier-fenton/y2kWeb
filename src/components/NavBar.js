@@ -12,6 +12,7 @@ const NavBar = () => {
           </div>
           <div>PAGES:</div>
           <div>
+            {/* this will be components */}
             <Link to="/">1</Link>
           </div>
           <div>
