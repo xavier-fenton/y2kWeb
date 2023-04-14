@@ -1,1 +1,41 @@
-.component-box-1
+.main-body-container{
+  display: flex;
+}
+
+.component-box-1{
+  width: 25%;
+  height: 85vh;
+  border: 1px solid black;
+  margin-top: 5px;
+}
+.component-box-2{
+  width: 25%;
+  height: 85vh;
+  border: 1px solid black;
+  margin-top: 5px;
+  border-left: 0;
+}
+.component-box-3{
+  width: 25%;
+  height: 85vh;
+  border: 1px solid black;
+  margin-top: 5px;
+  border-left: 0;
+}
+.component-box-4{
+  width: 25%;
+  height: 85vh;
+  border: 1px solid black;
+  margin-top: 5px;
+  border-left: 0;
+}
+
+.box-title{
+  display: flex;
+  align-items: center;
+  border-bottom:1px solid black ;
+  padding: 10px;
+  text-transform: uppercase;
+  color: rgba(254, 35, 35, 0.882);
+  gap:85%;
+}
