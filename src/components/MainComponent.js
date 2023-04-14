@@ -24,7 +24,6 @@ const MainComponent = () => {
   //   console.log(false)
   // }
 
-  console.log(x)
   return (
     <div className="Main-Component">
       <NavBar />
