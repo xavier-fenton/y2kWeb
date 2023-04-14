@@ -1,4 +1,5 @@
-.nav-bar-box{
+/* This is mini box in nav bar */
+.nav-bar-box{ 
   border: 1px solid black;
   border-left: none;
   width: 5%;

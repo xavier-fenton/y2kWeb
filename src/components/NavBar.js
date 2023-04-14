@@ -12,7 +12,7 @@ const NavBar = () => {
           </div>
           <div>PAGES:</div>
           <div>
-            {/* these will be components */}
+            {/* these will be components and dynamic not sure of the content */}
             <Link to="/">1</Link>
           </div>
           <div>
